@@ -13,10 +13,10 @@ public class CaesarCypher {
 		String rightSubstring = alphabet.substring(this.key);
 		shiftedAlphabet = rightSubstring + leftSubstring;
 	}
-	/*public String textEncode(String clearText) {
+	public String textEncode(String clearText) {
 		String textEncoded = "";
 		for (int i = 0; i < clearText.length(); i++) {
-		textEncoded += shiftedAlphabet.charAt(alphabet.indexOf(clearText.charAt(i+1)));
+		textEncoded += shiftedAlphabet.charAt(alphabet.indexOf(clearText.charAt(i)));
 		}
 		return textEncoded;
 	}
@@ -28,5 +28,5 @@ public class CaesarCypher {
 	}
 	return textDecoded;
 	}
-	*/
+	
 }
